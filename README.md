@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# ✨ Artem Dinh Cyber Portfolio: https://artemislong.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### 🖥 Project Overview
+A cyber-themed portfolio website developed to showcase my professional experiences, playful projects, and personal interests (information not updated since 2022). Built using React and powered by components from the [Arwes UI Framework](https://github.com/arwes/arwes), the site features interactive sound effects, animations, and a futuristic cyberpunk design.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### 🛠 Key Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### ⚙️ `App.js`
+The central component of the application, `App.js`, orchestrates the layout, themes, sounds, and user interface interactions across the portfolio.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Imports**:
+  - Utilizes [Arwes](https://github.com/arwes/arwes), a futuristic design framework that provides cyber-themed components and animations. Most UI elements are sourced from this framework, including `ThemeProvider`, `SoundsProvider`, `Button`, `Frame`, `Highlight`, `Header`, and `Footer`.
+  - Imports sound effects (`click`, `deploy`, `typing`) and background images to create an engaging visual and auditory experience.
+  - Includes primary components like `Profile`, `InfoFrame`, and navigation buttons for LinkedIn and Contact.
 
-### `npm test`
+- **Theme and Sound Configurations**:
+  - **Custom Theme**: Defines a cyberpunk color palette with neon greens, blues, and bright accents.
+  - **Sounds**: Configures sound effects that trigger with user interactions, enhancing the immersive experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Sections**:
+  - **HighlightNav**: An animated navigation menu allowing users to switch between "Experience," "Play," and "Ideas" sections.
+  - **InfoFrame**: Displays content based on the selected section, with smooth transitions.
 
-### `npm run build`
+- **Main Layout**:
+  - Leverages the `Arwes` framework's `ThemeProvider`, `SoundsProvider`, and layout components to create a cohesive cyber look and feel.
+  - **Header and Footer**: Includes site title, social media links, and a "Back to top" button for easy navigation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📄 Sections and Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Experience** 🧑‍🔬
+   - Highlights professional projects and volunteer experiences, including:
+     - Research on polarized laparoscopic camera development.
+     - Stanford Cleantech 2020 finalist team.
+     - Social audio platform project with USC Lavalab.
 
-### `npm run eject`
+2. **Playful Projects** 🎮
+   - Showcases creative projects like:
+     - *Covidtrip*: Information platform for travelers.
+     - *Biteguide*: A skill-sharing platform with step-by-step text tutorials.
+     - *Smart Food Plate*: A project for nutrition education for children.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. **Thoughts & Ideas** 💡
+   - Personal reflections and ideas, including thoughts on history, random ideas, etc.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 📦 Installation & Setup
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/artemislong/Artem_Cyber_Portfolio.git
+   ```
 
-## Learn More
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Run the development server**:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🔮 Future Enhancements
 
-### Analyzing the Bundle Size
+- **Image and Content Updates**:
+  - Replace placeholder images with high-quality photos.
+  - Add more content under "Thoughts & Ideas" for personal insights.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Credits**:
+  - Locate and credit the original source of some design elements if found.
 
-### Making a Progressive Web App
+- **Additional Privacy Measures**:
+  - Review any sensitive information displayed to ensure compliance with privacy standards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🤝 Acknowledgments
+This project’s design, CSS, and components are heavily inspired by and utilize the [Arwes UI Framework](https://github.com/arwes/arwes), which provides a futuristic and cyberpunk aesthetic that aligns with the portfolio's vision. Special thanks to the creators of Arwes for their creative contributions to the cyber-themed design.
